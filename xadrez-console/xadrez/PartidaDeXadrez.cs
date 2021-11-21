@@ -112,7 +112,7 @@ namespace xadrez
                 tab.colocarPeca(T, origemT);
             }
 
-            // #jogadaespecial en passant
+            // #jogadaespecial en passante
             if (p is Peao)
             {
                 if (origem.coluna != destino.coluna && pecaCapturada == vulneravelEnPassant)
